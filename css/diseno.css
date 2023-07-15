@@ -83,6 +83,13 @@
     .texto-sobre-imagen {
       font-size: 15px;
     }
+    .titulo
+  {
+  font-family: 'Lilita One', cursive;
+  text-align: center;
+  font-weight: bold;
+  }
+
   }
 
 
@@ -141,4 +148,7 @@
 }
 
 
-  
+.custom-height {
+  height: 300px; /* Cambia esta altura según tus necesidades */
+}
+
