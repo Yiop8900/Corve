@@ -1,0 +1,143 @@
+
+.edit-nav
+{
+    background:linear-gradient(to right, #445972, #317F70, #65B283);
+}
+
+.edit-foot
+{
+    background:linear-gradient(to right, #445972, #317F70, #65B283);
+}
+
+.tipografia
+{
+    font-family: 'Helvetica Neue';
+}
+
+#logo
+{
+    margin-left: 20px;
+    border-radius: 120px;
+    width: 50px;
+}
+
+.nav-link {
+  transition: transform 0.3s;
+}
+
+.color-con
+{
+  margin-top: 10px;
+  background-color: rgb(235, 235, 235);
+  padding: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.separacion
+{
+  margin-right: 5px;
+}
+
+.barra {
+  display: inline-block;
+  width: 10px; /* Ajusta el ancho a tu preferencia */
+  height: 18px; /* Ajusta la altura a tu preferencia */
+  background-color: #3ab873; /* Ajusta el color a tu preferencia */
+  margin-right: 3px;
+}
+
+
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+#info
+{
+  margin-top: 10px;
+}
+
+.titulo
+{
+  font-family: 'Lilita One', cursive;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contenido
+{
+  font-family: 'Anek', sans-serif;
+  margin-top: 5%;
+  text-align: start;
+}
+
+
+.text-nav
+{
+  margin-right: 40%;
+}
+
+@media screen and (max-width: 800px) {
+    .texto-sobre-imagen {
+      font-size: 15px;
+    }
+  }
+
+
+
+
+.animate-left 
+{
+  opacity: 0;
+  transform: translateX(-100px);
+  animation: slideFromLeft 1.5s ease forwards;
+}
+  
+@keyframes slideFromLeft 
+{
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+
+.animate-left {
+  position: relative;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.llamanos-button,
+.escribenos-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #22453b; /* Color verde oscuro por defecto */
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  border-radius: 30px;
+  background-size: 200% 100%;
+  background-position: -100%;
+}
+
+.llamanos-button:hover,
+.escribenos-button:hover {
+  background-position: 0%;
+  background-image: linear-gradient(to right, #22453b 0%, #f3d371 100%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+  
